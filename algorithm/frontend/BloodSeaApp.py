@@ -36,7 +36,7 @@ class BloodSeaApp:
         # Search button with icon
         if st.button("🔍 Search"):
             # Retrieve data from session state
-            st.success("Details have been stored!")
+            st.success("Finding donor for...")
             st.write(f"Name: {name}")
             st.write(f"Pincode: {pincode}")
             st.write(f"Blood Group: {selected_blood_group}")
